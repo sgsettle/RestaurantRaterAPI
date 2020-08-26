@@ -42,6 +42,7 @@ namespace RestaurantRaterAPI.Controllers
         [HttpGet]
         public async Task<IHttpActionResult> GetById(int id)
         {
+            // "Failed to serialize" error message in Postman. Josh Googled "c# entity framework serialize json error self referencing loop detected" to find solution on what to add to WebApiConfig.cs under App_Start folder
             Restaurant restaurant = await _context.Restaurants.FindAsync(id);
 
             if (restaurant != null)
@@ -73,7 +74,6 @@ namespace RestaurantRaterAPI.Controllers
                 {
                     // Update restaurant now that we found it
                     restaurant.Name = updatedRestaurant.Name;
-                    restaurant.Rating = updatedRestaurant.Rating;
 
                     await _context.SaveChangesAsync();
 

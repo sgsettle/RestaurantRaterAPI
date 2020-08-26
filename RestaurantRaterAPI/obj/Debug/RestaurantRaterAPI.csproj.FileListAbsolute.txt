@@ -89,3 +89,5 @@ C:\ElevenFiftyProjects\RestaurantRaterAPI\RestaurantRaterAPI\obj\Debug\Restauran
 C:\ElevenFiftyProjects\RestaurantRaterAPI\RestaurantRaterAPI\obj\Debug\RestaurantRaterAPI.pdb
 C:\ElevenFiftyProjects\RestaurantRaterAPI\RestaurantRaterAPI\obj\Debug\RestaurantRaterAPI.Migrations.InitialMigration.resources
 C:\ElevenFiftyProjects\RestaurantRaterAPI\RestaurantRaterAPI\obj\Debug\RestaurantRaterAPI.csproj.GenerateResource.cache
+C:\ElevenFiftyProjects\RestaurantRaterAPI\RestaurantRaterAPI\obj\Debug\RestaurantRaterAPI.Migrations.AddedRatingTable.resources
+C:\ElevenFiftyProjects\RestaurantRaterAPI\RestaurantRaterAPI\obj\Debug\RestaurantRaterAPI.Migrations.SetUpForeignKeys.resources
